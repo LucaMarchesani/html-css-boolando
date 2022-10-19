@@ -12,8 +12,16 @@
     justify-content: center;
 }
 
+/* header */
+header{
+    position: relative;
+}
+
 .top{
+    width: 100%;
     background-color: #ff6900;
+    margin-bottom: 2.5rem;
+    position: fixed;
 }
 
 .navbar{
@@ -37,3 +45,20 @@
     height: 1.5rem;
     background-color: cornflowerblue;
 }
+
+/* main */
+.contents{
+    width: 70%;
+    margin-top: 6rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.product{
+    width: calc(100% /3 - .5rem);
+    height: 26rem;
+    margin-bottom: 1.5rem;
+    background-color: chartreuse;
+}
+
+/* footer */
