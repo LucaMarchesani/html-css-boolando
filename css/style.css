@@ -79,12 +79,15 @@ a{
     flex-wrap: wrap;
 }
 
-.product{
+.card{
     width: calc(100% /3 - .5rem);
-    height: 30rem;
     margin-bottom: 1.5rem;
-    background-color: chartreuse;
 }
+
+.card>img{
+    width: 100%;
+}
+
 
 /* footer */
 footer{
