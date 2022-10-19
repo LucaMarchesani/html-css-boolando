@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex.center{
+    justify-content: center;
+}
+
+.top{
+    background-color: #ff6900;
+}
+
+.navbar{
+    width: 70%;
+    height: 3rem;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.links,
+.icons{
+    width: 20%;
+    height: 1.5rem;
+    background-color: yellow;
+    list-style: none;
+}
+
+.logo{
+    width: 60%;
+    height: 1.5rem;
+    background-color: cornflowerblue;
+}
