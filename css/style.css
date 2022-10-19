@@ -56,9 +56,29 @@ header{
 
 .product{
     width: calc(100% /3 - .5rem);
-    height: 26rem;
+    height: 30rem;
     margin-bottom: 1.5rem;
     background-color: chartreuse;
 }
 
 /* footer */
+footer{
+    height: 4rem;
+    background-color: #1a1a1a;
+}
+
+.bottom-content{
+    width: 70%;
+    height: 2rem;
+    margin-top: 1rem;
+    background-color: coral;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+.info,
+.social{
+    width: 30%;
+    background-color: turquoise;
+}
