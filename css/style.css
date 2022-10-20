@@ -156,13 +156,18 @@ a{
 }
 
 .brand,
-.price{
+.price,
+.old-price{
     font-size: 0.7rem;
 }
 
-span{
+.price{
     color: red;
     font-weight: 500;
+}
+
+.old-price{
+    text-decoration: line-through;
 }
 
 
